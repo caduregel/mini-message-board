@@ -33,7 +33,7 @@ indexRouter.post('/new', (req, res) => {
     user: req.body.user,
     added: new Date()
   })
-  res.send('   <p>Message sent!</p> <a href="http://localhost:3000/">Home</a> ')
+  res.send('   <p>Message sent!</p> <a href="/">Home</a> ')
 })
 
 module.exports = indexRouter;
