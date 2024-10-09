@@ -4,6 +4,9 @@ const app = express();
 // Routes
 const indexRouter = require('./routes/indexRouter')
 
+//dotenv
+require('dotenv').config('../.env')
+
 app.use(express.urlencoded({ extended: true }));
 
 // Views
